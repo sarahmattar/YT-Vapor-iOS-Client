@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1C62A3E274A09FB00DA3251 /* YT_Vapor_iOS_AappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A3D274A09FB00DA3251 /* YT_Vapor_iOS_AappApp.swift */; };
-		F1C62A40274A09FB00DA3251 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A3F274A09FB00DA3251 /* ContentView.swift */; };
+		F15B0821274C33E4003C32EB /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B0820274C33E4003C32EB /* ModalType.swift */; };
+		F15B0823274C354B003C32EB /* AddUpdateSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B0822274C354B003C32EB /* AddUpdateSong.swift */; };
+		F15B0825274C35E4003C32EB /* AddUpdateSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B0824274C35E4003C32EB /* AddUpdateSongViewModel.swift */; };
+		F1C62A3E274A09FB00DA3251 /* YT_Vapor_iOS_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A3D274A09FB00DA3251 /* YT_Vapor_iOS_ClientApp.swift */; };
+		F1C62A40274A09FB00DA3251 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A3F274A09FB00DA3251 /* SongList.swift */; };
 		F1C62A42274A09FC00DA3251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C62A41274A09FC00DA3251 /* Assets.xcassets */; };
 		F1C62A45274A09FC00DA3251 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C62A44274A09FC00DA3251 /* Preview Assets.xcassets */; };
+		F1C62A50274A0BCD00DA3251 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A4F274A0BCD00DA3251 /* Song.swift */; };
+		F1C62A53274A0C2700DA3251 /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A52274A0C2700DA3251 /* SongListViewModel.swift */; };
+		F1C62A55274A0ED400DA3251 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A54274A0ED400DA3251 /* HTTPClient.swift */; };
+		F1C62A57274A111A00DA3251 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C62A56274A111A00DA3251 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F1C62A3A274A09FB00DA3251 /* YT-Vapor-iOS-Aapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT-Vapor-iOS-Aapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1C62A3D274A09FB00DA3251 /* YT_Vapor_iOS_AappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_Vapor_iOS_AappApp.swift; sourceTree = "<group>"; };
-		F1C62A3F274A09FB00DA3251 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F15B0820274C33E4003C32EB /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+		F15B0822274C354B003C32EB /* AddUpdateSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSong.swift; sourceTree = "<group>"; };
+		F15B0824274C35E4003C32EB /* AddUpdateSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSongViewModel.swift; sourceTree = "<group>"; };
+		F1C62A3A274A09FB00DA3251 /* YT-Vapor-iOS-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT-Vapor-iOS-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C62A3D274A09FB00DA3251 /* YT_Vapor_iOS_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_Vapor_iOS_ClientApp.swift; sourceTree = "<group>"; };
+		F1C62A3F274A09FB00DA3251 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		F1C62A41274A09FC00DA3251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1C62A44274A09FC00DA3251 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1C62A4F274A0BCD00DA3251 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		F1C62A52274A0C2700DA3251 /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		F1C62A54274A0ED400DA3251 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		F1C62A56274A111A00DA3251 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +49,7 @@
 		F1C62A31274A09FB00DA3251 = {
 			isa = PBXGroup;
 			children = (
-				F1C62A3C274A09FB00DA3251 /* YT-Vapor-iOS-Aapp */,
+				F1C62A3C274A09FB00DA3251 /* YT-Vapor-iOS-Client */,
 				F1C62A3B274A09FB00DA3251 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +57,23 @@
 		F1C62A3B274A09FB00DA3251 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1C62A3A274A09FB00DA3251 /* YT-Vapor-iOS-Aapp.app */,
+				F1C62A3A274A09FB00DA3251 /* YT-Vapor-iOS-Client.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1C62A3C274A09FB00DA3251 /* YT-Vapor-iOS-Aapp */ = {
+		F1C62A3C274A09FB00DA3251 /* YT-Vapor-iOS-Client */ = {
 			isa = PBXGroup;
 			children = (
-				F1C62A3D274A09FB00DA3251 /* YT_Vapor_iOS_AappApp.swift */,
-				F1C62A3F274A09FB00DA3251 /* ContentView.swift */,
+				F1C62A4E274A0A4A00DA3251 /* Utilities */,
+				F1C62A4B274A0A2700DA3251 /* Models */,
+				F1C62A4D274A0A3B00DA3251 /* Views */,
+				F1C62A4C274A0A3200DA3251 /* View Models */,
+				F1C62A3D274A09FB00DA3251 /* YT_Vapor_iOS_ClientApp.swift */,
 				F1C62A41274A09FC00DA3251 /* Assets.xcassets */,
 				F1C62A43274A09FC00DA3251 /* Preview Content */,
 			);
-			path = "YT-Vapor-iOS-Aapp";
+			path = "YT-Vapor-iOS-Client";
 			sourceTree = "<group>";
 		};
 		F1C62A43274A09FC00DA3251 /* Preview Content */ = {
@@ -67,12 +84,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F1C62A4B274A0A2700DA3251 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1C62A4F274A0BCD00DA3251 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1C62A4C274A0A3200DA3251 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1C62A52274A0C2700DA3251 /* SongListViewModel.swift */,
+				F15B0824274C35E4003C32EB /* AddUpdateSongViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F1C62A4D274A0A3B00DA3251 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1C62A3F274A09FB00DA3251 /* SongList.swift */,
+				F15B0822274C354B003C32EB /* AddUpdateSong.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1C62A4E274A0A4A00DA3251 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1C62A54274A0ED400DA3251 /* HTTPClient.swift */,
+				F1C62A56274A111A00DA3251 /* Constants.swift */,
+				F15B0820274C33E4003C32EB /* ModalType.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1C62A39274A09FB00DA3251 /* YT-Vapor-iOS-Aapp */ = {
+		F1C62A39274A09FB00DA3251 /* YT-Vapor-iOS-Client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1C62A48274A09FC00DA3251 /* Build configuration list for PBXNativeTarget "YT-Vapor-iOS-Aapp" */;
+			buildConfigurationList = F1C62A48274A09FC00DA3251 /* Build configuration list for PBXNativeTarget "YT-Vapor-iOS-Client" */;
 			buildPhases = (
 				F1C62A36274A09FB00DA3251 /* Sources */,
 				F1C62A37274A09FB00DA3251 /* Frameworks */,
@@ -82,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = "YT-Vapor-iOS-Aapp";
+			name = "YT-Vapor-iOS-Client";
 			productName = "YT-Vapor-iOS-Aapp";
-			productReference = F1C62A3A274A09FB00DA3251 /* YT-Vapor-iOS-Aapp.app */;
+			productReference = F1C62A3A274A09FB00DA3251 /* YT-Vapor-iOS-Client.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1C62A35274A09FB00DA3251 /* Build configuration list for PBXProject "YT-Vapor-iOS-Aapp" */;
+			buildConfigurationList = F1C62A35274A09FB00DA3251 /* Build configuration list for PBXProject "YT-Vapor-iOS-Client" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1C62A39274A09FB00DA3251 /* YT-Vapor-iOS-Aapp */,
+				F1C62A39274A09FB00DA3251 /* YT-Vapor-iOS-Client */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1C62A40274A09FB00DA3251 /* ContentView.swift in Sources */,
-				F1C62A3E274A09FB00DA3251 /* YT_Vapor_iOS_AappApp.swift in Sources */,
+				F1C62A50274A0BCD00DA3251 /* Song.swift in Sources */,
+				F15B0825274C35E4003C32EB /* AddUpdateSongViewModel.swift in Sources */,
+				F15B0823274C354B003C32EB /* AddUpdateSong.swift in Sources */,
+				F15B0821274C33E4003C32EB /* ModalType.swift in Sources */,
+				F1C62A55274A0ED400DA3251 /* HTTPClient.swift in Sources */,
+				F1C62A53274A0C2700DA3251 /* SongListViewModel.swift in Sources */,
+				F1C62A40274A09FB00DA3251 /* SongList.swift in Sources */,
+				F1C62A3E274A09FB00DA3251 /* YT_Vapor_iOS_ClientApp.swift in Sources */,
+				F1C62A57274A111A00DA3251 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"YT-Vapor-iOS-Aapp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"YT-Vapor-iOS-Client/Preview Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -276,13 +336,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sarah-Mattar.YT-Vapor-iOS-Aapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sarah-Mattar.YT-Vapor-iOS-Client";
+				PRODUCT_NAME = "YT-Vapor-iOS-Client";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,7 +357,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"YT-Vapor-iOS-Aapp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"YT-Vapor-iOS-Client/Preview Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,13 +365,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sarah-Mattar.YT-Vapor-iOS-Aapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sarah-Mattar.YT-Vapor-iOS-Client";
+				PRODUCT_NAME = "YT-Vapor-iOS-Aapp";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1C62A35274A09FB00DA3251 /* Build configuration list for PBXProject "YT-Vapor-iOS-Aapp" */ = {
+		F1C62A35274A09FB00DA3251 /* Build configuration list for PBXProject "YT-Vapor-iOS-Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1C62A46274A09FC00DA3251 /* Debug */,
@@ -329,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1C62A48274A09FC00DA3251 /* Build configuration list for PBXNativeTarget "YT-Vapor-iOS-Aapp" */ = {
+		F1C62A48274A09FC00DA3251 /* Build configuration list for PBXNativeTarget "YT-Vapor-iOS-Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1C62A49274A09FC00DA3251 /* Debug */,
